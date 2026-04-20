@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AFROGRIND | African Bead Art & Creative Movement</title>
+
+<meta name="description" content="AFROGRIND is a creative platform for African bead art, custom portraits, and cultural expression.">
+<meta name="keywords" content="African art, bead portrait, Tanzania artist, AFROGRIND, custom portrait">
+<meta name="author" content="AFROGRIND">
+
+<style>
+
+/* BODY */
+body {
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+  background: 
+    linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.9)),
+    url('https://www.transparenttextures.com/patterns/african-pattern.png');
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 230px;
+  background: linear-gradient(to bottom, #3b2f2f, #1a1a1a);
+  height: 100vh;
+}
+
+.sidebar a {
+  display: block;
+  color: #d4af37;
+  padding: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid #5a4a4a;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  background: #d4af37;
+  color: black;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+  animation: fadeIn 1s ease-in;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  color: #d4af37;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+/* TEXT */
+p {
+  text-align: center;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery div {
+  background: #2a1f1f;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 0 15px rgba(212,175,55,0.3);
+  transition: 0.3s;
+  animation: fadeIn 1s ease-in;
+}
+
+.gallery div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212,175,55,0.7);
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d4af37;
+  color: black;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <a href="#">HOME</a>
+  <a href="#">GALLERY</a>
+  <a href="#">SHOP</a>
+  <a href="#">CONTACT</a>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <h1>AFROGRIND CREATIVE</h1>
+
+  <p style="font-style: italic;">
+    Celebrating African creativity through bead art and culture
+  </p>
+
+  <h2>Gallery</h2>
+
+  <div class="gallery">
+
+    <div>
+      <img src="d:\New folder\MO DEWJI OWNER.png">
+      <p>MO DEWJI OWNER</p>
+    </div>
+
+    <div>
+      <img src="d:\New folder\YOUNG LUNYA.png">
+      <p>YOUNG LUNYA`MBUZI</p>
+    </div>
+
+    <div>
+      <img src="d:\New folder\MBAALAZA leo Mendez.png">
+      <p>LEO MENDEZ</p>
+    </div>
+
+  </div>
+
+  <h2>Shop</h2>
+
+  <div class="gallery">
+
+    <div>
+      <img src="d:\New folder\MO DEWJI OWNER.png">
+      <p>MO DEWJI OWNER</p>
+      <p>TZS 200000</p>
+      <a href="https://wa.me/255628976704" class="btn">Order</a>
+    </div>
+
+    <div>
+      <img src="d:\New folder\MBAALAZA leo Mendez.png">
+      <p>MBAALAZA</p>
+      <p>Starting TZS 200000</p>
+      <a href="https://wa.me/255628976704" class="btn">Order</a>
+    </div>
+
+  </div>
+
+  <h2>Contact</h2>
+  <p>Order your custom portrait via WhatsApp</p>
+
+  <a href="https://wa.me/255628976704" class="btn">Chat Now</a>
+
+  <h2>Our Vision</h2>
+  <p>
+    AFROGRIND is not just art — it is a movement.  
+    A space for African creatives to express, connect, and grow together.
+  </p>
+
+</div>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/255628976704" style="
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #25D366;
+color: white;
+padding: 15px;
+border-radius: 50%;
+text-decoration: none;
+font-size: 20px;
+">💬</a>
+
+</body>
+</html>
+
